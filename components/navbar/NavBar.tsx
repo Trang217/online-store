@@ -1,5 +1,6 @@
 import React from 'react'
 import Container from '../global/Container'
+import CartButton from './CartButton'
 import DarkMode from './DarkMode'
 import LinksDropdown from './LinksDropdown'
 import Logo from './Logo'
@@ -12,7 +13,7 @@ function NavBar() {
         <Logo />
         <NavSearch />
         <div className="flex gap-4 items-center">
-          <LinksDropdown />
+          <CartButton />
           <DarkMode />
           <LinksDropdown />
         </div>
