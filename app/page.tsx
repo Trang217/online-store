@@ -1,4 +1,12 @@
+import FeaturedProducts from "@/components/home/FeaturedProducts";
+import Hero from "@/components/home/Hero";
+
 const HomePage = () => {
-  return <h1 className="text-3xl text-muted-foreground">HomePage</h1>;
+  return( 
+  <>
+    <Hero />
+    <FeaturedProducts />
+  </>
+  );
 };
 export default HomePage;

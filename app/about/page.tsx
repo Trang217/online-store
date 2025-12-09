@@ -1,8 +1,10 @@
-import React from 'react'
 
-function AboutPage() {
+
+ function AboutPage() {
   return (
-    <div>AboutPage</div>
+    <div>
+   About page
+    </div>
   )
 }
 
