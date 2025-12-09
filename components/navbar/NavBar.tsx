@@ -1,0 +1,24 @@
+import React from 'react'
+import Container from '../global/Container'
+import DarkMode from './DarkMode'
+import LinksDropdown from './LinksDropdown'
+import Logo from './Logo'
+import NavSearch from './NavSearch'
+
+function NavBar() {
+  return (
+    <nav>
+      <Container className="flex flex-col sm:flex-row sm:justify-between sm:items-center flex-wrap gap-4 py-8">
+        <Logo />
+        <NavSearch />
+        <div className="flex gap-4 items-center">
+          <LinksDropdown />
+          <DarkMode />
+          <LinksDropdown />
+        </div>
+      </Container>
+    </nav>
+  )
+}
+
+export default NavBar
