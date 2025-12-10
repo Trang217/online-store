@@ -7,7 +7,7 @@ import ProductsGrid from "./ProductsGrid";
 import ProductsList from "./ProductsList";
 
 async function ProductsContainer({layout, search}: {layout:string; search:string}) {
-  const products = await fetchAllProducts();
+  const products = await fetchAllProducts({search});
   const totalProducts = products.length;
   const searchTerm = search ? `&search=${search}` : "";
   
