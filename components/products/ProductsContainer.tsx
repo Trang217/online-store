@@ -2,7 +2,7 @@ import { fetchAllProducts } from "@/utils/action";
 import Link from "next/link";
 import { Button } from "../ui/button";
 import { LayoutGrid, List } from "lucide-react";
-import { Separator } from "../ui/Separator";
+import { Separator } from "../ui/separator";
 import ProductsGrid from "./ProductsGrid";
 import ProductsList from "./ProductsList";
 

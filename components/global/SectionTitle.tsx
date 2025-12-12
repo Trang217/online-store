@@ -1,4 +1,4 @@
-import { Separator} from "@/components/ui/Separator"
+import { Separator} from "@/components/ui/separator"
 
 function SectionTitle({text} : {text: string}) {
   return (
